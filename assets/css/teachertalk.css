@@ -1,0 +1,314 @@
+.ssamtalk {
+	overflow: auto;
+	padding: 20px 10px;
+}
+
+.ssamtalk.info {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url('/assets/img/ssamtalk/img_info.png') center center
+		no-repeat;
+	background-size: 425.5px 120.5px;
+}
+
+.ssamtalk .sec:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ' ';
+	clear: both;
+	height: 0;
+}
+
+.ssamtalk .date {
+	background: url('/assets/img/ssamtalk/bg_date.png') left center repeat-x;
+	background-size: 1px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.ssamtalk .date .inner {
+	padding: 0 10px;
+	background: #fff;
+	color: #666;
+}
+
+.ssamtalk .chat {
+	max-width: 50%;
+}
+
+.ssamtalk .chat .text, .ssamtalk .chat .image {
+	float: left;
+	padding: 10px;
+	border-radius: 4px;
+	color: #222;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.ssamtalk .chat .text, .ssamtalk .chat .image img {
+	display: block;
+	border: 1px solid #e4db4b;
+	border-radius: 2px;
+}
+
+.ssamtalk .chat .text {
+	padding: 15px 20px;
+	word-break: break-all;
+}
+
+.ssamtalk .chat .teacher {
+	margin-bottom: 9px;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.ssamtalk ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.ssamtalk .pull-left {
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+}
+
+.ssamtalk .pull-left .avatar {
+	float: left;
+	margin-left: 35px;
+	margin-right: 20px;
+}
+
+.ssamtalk .pull-left .avatar.hidden {
+	visibility: hidden;
+	height: 1px;
+}
+
+.ssamtalk .pull-left .avatar img {
+	width: 54px;
+}
+
+.ssamtalk .pull-left .chat {
+	float: left;
+}
+
+.ssamtalk .pull-left .chat ul {
+	margin-left: 14.5px;
+}
+
+.ssamtalk .pull-left .chat ul li {
+	margin-bottom: 14px;
+}
+
+.ssamtalk .pull-left .chat ul li:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ' ';
+	clear: both;
+	height: 0;
+}
+
+.ssamtalk .pull-left .chat ul li:last-child {
+	margin-bottom: 0;
+}
+
+.ssamtalk .pull-left .chat .message {
+	position: relative;
+	float: left;
+}
+
+.ssamtalk .pull-left .chat .message.first:before {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: -13.5px;
+	width: 14.5px;
+	height: 15px;
+	background: url('/assets/img/ssamtalk/bg_msg_left.png') no-repeat;
+	background-size: contain;
+}
+
+.ssamtalk .pull-left .chat .message.first .text {
+	border-radius: 0 4px 4px;
+}
+
+.ssamtalk .pull-left .message .text {
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 4px;
+}
+
+.ssamtalk .pull-left .message .send-date {
+	position: absolute;
+	width: 75px;
+	right: -80px;
+	bottom: 0;
+	font-size: 15px;
+	color: #999;
+	font-weight: 400;
+}
+
+.ssamtalk .pull-right {
+	width: 100%;
+	float: right;
+	margin-top: 15px;
+}
+
+.ssamtalk .pull-right .chat {
+	float: right;
+}
+
+.ssamtalk .pull-right .chat ul {
+	margin-right: 50px;
+}
+
+.ssamtalk .pull-right .chat ul li {
+	margin-bottom: 14px;
+}
+
+.ssamtalk .pull-right .chat ul li:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ' ';
+	clear: both;
+	height: 0;
+}
+
+.ssamtalk .pull-right .chat ul li:last-child {
+	margin-bottom: 0;
+}
+
+.ssamtalk .pull-right .chat .message {
+	position: relative;
+	float: right;
+}
+
+.ssamtalk .pull-right .chat .message.first:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -13.5px;
+	width: 14.5px;
+	height: 15px;
+	background: url('/assets/img/ssamtalk/bg_msg_right.png') no-repeat;
+	background-size: contain;
+}
+
+.ssamtalk .pull-right .chat .message.first .text, .ssamtalk .pull-right .chat .message.first .image
+	{
+	border-radius: 4px 0 4px 4px;
+}
+
+.ssamtalk .pull-right .message .text, .ssamtalk .pull-right .message .image
+	{
+	background: #fcf368;
+	border: 1px solid #e4db4b;
+	border-radius: 4px;
+}
+
+.ssamtalk .pull-right .message .send-date {
+	position: absolute;
+	width: 75px;
+	left: -80px;
+	bottom: 0;
+	font-size: 15px;
+	color: #999;
+	font-weight: 400;
+}
+
+.ssamtalk .pull-left .chat .doc {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+
+.ssamtalk .pull-left .chat .doc .text {
+	min-width: 140px;
+	padding: 0;
+	background: #375ee7;
+	color: #fff;
+	font-weight: 400;
+	border: none;
+	border-radius: 4px;
+}
+
+.ssamtalk .pull-left .chat .doc .text .title {
+	padding: 15px 20px;
+	border-bottom: 1px solid #4b6ee9;
+}
+
+.ssamtalk .pull-left .chat .doc .text .cont {
+	padding: 15px 20px 18px 60px;
+	background: url('/assets/img/ssamtalk/ico_doc.png'),
+		url('/assets/img/ssamtalk/ico_arrow.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position: 20px center, calc(100% - 20px) center;
+	background-size: 27px 31px, 11.5px 20.5px;
+}
+
+.ssamtalk .pull-left .chat .doc .send-date {
+	position: absolute;
+	width: 75px;
+	right: -80px;
+	bottom: 0;
+	font-size: 15px;
+	color: #999;
+	font-weight: 400;
+}
+
+.ssamtalk .pull-left .chat .cookie {
+	position: relative;
+	float: left;
+}
+
+.ssamtalk .pull-left .chat .cookie.first:before {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: -13.5px;
+	width: 14.5px;
+	height: 15px;
+	background: url('/assets/img/ssamtalk/bg_msg_left.png') no-repeat;
+	background-size: contain;
+}
+
+.ssamtalk .pull-left .chat .cookie.first .text {
+	border-radius: 0 4px 4px;
+}
+
+.ssamtalk .pull-left .cookie .text {
+	background: #fff;
+	border: 1px solid #666;
+	padding-left: 70px;
+	background: url('/assets/img/ssamtalk/ico_cookie.png') 20px center
+		no-repeat;
+	background-size: 40.5px 31.5px;
+}
+
+.ssamtalk .pull-left .cookie .send-date {
+	position: absolute;
+	width: 75px;
+	right: -80px;
+	bottom: 0;
+	font-size: 15px;
+	color: #999;
+	font-weight: 400;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.hide {
+	display: none;
+}
